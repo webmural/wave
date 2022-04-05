@@ -10,6 +10,11 @@
   border-radius: 0 30% 30% 0;
 }
 
+::selection {
+  color: skyblue;
+  background: #111;
+}
+
 .deepwave {
   --dew-solar: deepskyblue;
   --dew-lunar: #111;

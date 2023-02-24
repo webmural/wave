@@ -6,7 +6,7 @@
 :any-link {
   color: inherit;
   background: none;
-  box-shadow: 0 0 1ex 1em seashell;
+  box-shadow: 0 0 1ex 1em var(--tape-hex, seashell);
   border-radius: 0 30% 30% 0;
 }
 
@@ -15,17 +15,15 @@
   background: #111;
 }
 
-.deepwave {
-  --dew-solar: deepskyblue;
-  --dew-lunar: #111;
+:focus {
+  outline: thick groove;
 }
 
-.surfwave {
-  --dew-solar: #609;
-  --dew-lunar: seashell;
+.wave {
+  --tape-blue: deepskyblue;
 }
 
-.surfboard {
+.surf {
   display: table;
   margin-block-end: 1em;
 }
